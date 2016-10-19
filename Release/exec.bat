@@ -1,0 +1,2 @@
+start startcsWebService.bat
+start startcsSite.bat

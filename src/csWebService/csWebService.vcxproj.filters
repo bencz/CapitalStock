@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ServiceSession.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\StringHelper.h" />
+    <ClInclude Include="ServiceSession.h" />
+    <ClInclude Include="..\common\model\Stock.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\model\Transaction.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\model\User.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\model\UserDetails.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="dal\UserDataAccess.h">
+      <Filter>dal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\model\Trader.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="RestRequests\User\RestAuthenticateUser.h">
+      <Filter>RestRequests\User</Filter>
+    </ClInclude>
+    <ClInclude Include="RestRequests\User\RestCreateNewUser.h">
+      <Filter>RestRequests\User</Filter>
+    </ClInclude>
+    <ClInclude Include="RestRequests\User\RestGetTotalCash.h">
+      <Filter>RestRequests\User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\WebApiUrl.h" />
+    <ClInclude Include="CSVParser\CSVParser.h">
+      <Filter>CSVParser</Filter>
+    </ClInclude>
+    <ClInclude Include="dal\StockDataAccess.h">
+      <Filter>dal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\model\Portfolio.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="RestRequests\User\RestSetLastAccess.h">
+      <Filter>RestRequests\User</Filter>
+    </ClInclude>
+    <ClInclude Include="RestRequests\Stock\RestGetStocksTable.h">
+      <Filter>RestRequests\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHelper.h" />
+    <ClInclude Include="RestRequests\User\RestGetUserDetails.h">
+      <Filter>RestRequests\User</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\model\Models.h">
+      <Filter>models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="RestRequests">
+      <UniqueIdentifier>{1b5bb93c-c4af-4068-b593-2a9307948887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dal">
+      <UniqueIdentifier>{4530443a-be93-4ca9-9423-0a4c1cae830a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{4c2d412a-19a3-4c56-abef-bc6ed03e99cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RestRequests\User">
+      <UniqueIdentifier>{b647522b-19ce-4fae-a74d-c8133b9129e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSVParser">
+      <UniqueIdentifier>{ac1ca1b3-5cf7-4a69-a3d6-d62eecf05fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RestRequests\Stock">
+      <UniqueIdentifier>{b5a0d691-c394-4436-ac99-f53299ade4c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
